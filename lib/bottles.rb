@@ -58,6 +58,11 @@ end
 
 class BottleNumber
   attr_reader :number
+
+  def initialize number
+    @number = number
+  end
+
   def successor number
     if number == 0
       99
