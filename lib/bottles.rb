@@ -24,6 +24,7 @@ class Bottles
   end
 
   def action number
+      "Go to the store and buy some more, "
   end
 
   def quantity number
