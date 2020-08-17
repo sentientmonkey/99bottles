@@ -28,6 +28,10 @@ class Bottles
     end
   end
 
+  def quantity number=:FIXME
+    "no more"
+  end
+
   def container number
     if number == 1
       "bottle"
