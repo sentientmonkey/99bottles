@@ -58,7 +58,7 @@ class BottleNumber
     end
   end
 
-  def quantity number=self.number
+  def quantity
     case number
     when 0
       "no more"
