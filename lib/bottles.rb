@@ -36,7 +36,7 @@ class Bottles
     end
   end
 
-  def pronoun number=:FIXME
+  def pronoun number
     "one"
   end
 end
