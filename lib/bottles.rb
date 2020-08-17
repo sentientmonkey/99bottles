@@ -33,8 +33,6 @@ class Bottles
 
   def quantity number
     case number
-    when -1
-      "99"
     when 0
       "no more"
     else
