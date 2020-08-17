@@ -11,7 +11,7 @@ class Bottles
   def verse number
     case number
     when 2
-      "2 #{container number} of beer on the wall, 2 #{container number} of beer.\n" +
+      "2 #{container(number)} of beer on the wall, 2 #{container(number)} of beer.\n" +
       "Take one down and pass it around, 1 bottle of beer on the wall.\n"
     when 1
       "1 bottle of beer on the wall, 1 bottle of beer.\n" +
