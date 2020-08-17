@@ -45,6 +45,10 @@ class BottleNumber
     @number = number
   end
 
+  def to_s
+    "#{quantity} #{container}"
+  end
+
   def successor
     if number == 0
       99
