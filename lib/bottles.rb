@@ -57,6 +57,7 @@ class Bottles
 end
 
 class BottleNumber
+  attr_reader :number
   def successor number
     if number == 0
       99
