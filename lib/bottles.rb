@@ -28,7 +28,7 @@ class Bottles
     end
   end
 
-  def quantity number=0
+  def quantity number
     "no more"
   end
 
