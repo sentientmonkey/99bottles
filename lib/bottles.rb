@@ -23,6 +23,7 @@ class Bottles
   end
 
   def quantity number
+    BottleNumber.new(number).quantity(number)
     case number
     when 0
       "no more"
