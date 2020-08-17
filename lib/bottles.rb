@@ -1,5 +1,9 @@
 
 class Bottles
+  def song
+    verses 99, 0
+  end
+
   def verses from, to
     from.downto(to).map{ |number| verse number }.join "\n"
   end
