@@ -23,6 +23,9 @@ class Bottles
     end
   end
 
+  def action number
+  end
+
   def quantity number
     if number == 0
       "no more"
