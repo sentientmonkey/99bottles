@@ -28,7 +28,7 @@ class Bottles
     end
   end
 
-  def quantity number=:FIXME
+  def quantity number
     "no more"
   end
 
