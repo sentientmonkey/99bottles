@@ -20,7 +20,7 @@ class Bottles
       "No more bottles of beer on the wall, no more bottles of beer.\n" +
       "Go to the store and buy some more, 99 bottles of beer on the wall.\n"
     else
-      "#{number} #{container number} of beer on the wall, #{number} bottles of beer.\n" +
+      "#{number} #{container number} of beer on the wall, #{number} #{container number} of beer.\n" +
       "Take one down and pass it around, #{number-1} bottles of beer on the wall.\n"
     end
   end
