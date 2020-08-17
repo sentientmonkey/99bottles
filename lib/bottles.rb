@@ -50,7 +50,7 @@ class BottleNumber
     end
   end
 
-  def action number
+  def action number=self.number
     if number == 0
       "Go to the store and buy some more"
     else
@@ -58,7 +58,7 @@ class BottleNumber
     end
   end
 
-  def quantity number
+  def quantity number=self.number
     case number
     when 0
       "no more"
@@ -67,7 +67,7 @@ class BottleNumber
     end
   end
 
-  def container number
+  def container number=self.number
     if number == 1
       "bottle"
     else
@@ -75,12 +75,11 @@ class BottleNumber
     end
   end
 
-  def pronoun number
+  def pronoun number=self.number
     if number == 1
       "it"
     else
       "one"
     end
   end
- 
 end
