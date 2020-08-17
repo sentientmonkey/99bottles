@@ -59,7 +59,7 @@ class BottleNumber
     @number = number
   end
 
-  def successor number=self.number
+  def successor
     if number == 0
       99
     else
