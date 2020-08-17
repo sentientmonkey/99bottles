@@ -24,7 +24,9 @@ class Bottles
   end
 
   def action number
+    if number == 0
       "Go to the store and buy some more, "
+    end
   end
 
   def quantity number
