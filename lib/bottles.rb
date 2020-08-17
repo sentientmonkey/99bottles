@@ -24,12 +24,6 @@ class Bottles
 
   def quantity number
     BottleNumber.new(number).quantity(number)
-    case number
-    when 0
-      "no more"
-    else
-      number.to_s
-    end
   end
 
   def container number
