@@ -18,7 +18,7 @@ class Bottles
       "Take it down and pass it around, no more #{container number} of beer on the wall.\n"
     when 0
       "No more #{container(number)} of beer on the wall, no more #{container(number)} of beer.\n" +
-      "Go to the store and buy some more, 99 #{container(number-1)} of beer on the wall.\n"
+      "Go to the store and buy some more, 99 #{container(99)} of beer on the wall.\n"
     else
       "#{number} #{container(number)} of beer on the wall, #{number} #{container(number)} of beer.\n" +
       "Take one down and pass it around, #{number-1} #{container(number-1)} of beer on the wall.\n"
