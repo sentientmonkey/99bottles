@@ -8,7 +8,7 @@ class Bottles
   end
 
   def verse number
-    number == 0 ? BottleNumber0 : BottleNumber
+    (number == 0 ? BottleNumber0 : BottleNumber).new number
     bottle_number = BottleNumber.new number
     next_bottle_number = BottleNumber.new bottle_number.successor
 
