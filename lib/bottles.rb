@@ -1,5 +1,8 @@
 
 class Bottles
+  def verses from, to
+  end
+
   def verse number
     if number == 2
       "2 bottles of beer on the wall, 2 bottles of beer.\n" +
