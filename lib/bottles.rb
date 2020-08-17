@@ -15,6 +15,14 @@ class Bottles
     "#{quantity(number-1)} #{container(number-1)} of beer on the wall.\n"
   end
 
+  def successor number
+    if number == 0
+      99
+    else
+      number - 1
+    end
+  end
+
   def action number
     if number == 0
       "Go to the store and buy some more"
