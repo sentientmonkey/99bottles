@@ -1,6 +1,7 @@
 
 class Bottles
   def verses from, to
+    verse(from) + "\n" + verse(to)
   end
 
   def verse number
