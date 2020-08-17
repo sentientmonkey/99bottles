@@ -8,8 +8,7 @@ class Bottles
   end
 
   def verse number
-    (number == 0 ? BottleNumber0 : BottleNumber).new number
-    bottle_number = BottleNumber.new number
+    bottle_number = (number == 0 ? BottleNumber0 : BottleNumber).new number
     next_bottle_number = BottleNumber.new bottle_number.successor
 
     "#{bottle_number} of beer on the wall, ".capitalize +
