@@ -1,4 +1,3 @@
-
 class Bottles
   def song
     verses 99, 0
@@ -55,4 +54,8 @@ class Bottles
       "one"
     end
   end
+end
+
+class BottleNumber
+  
 end
