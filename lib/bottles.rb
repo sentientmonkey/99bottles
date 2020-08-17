@@ -11,7 +11,7 @@ class Bottles
   def verse number
     case number
     when 0
-      "#{quantity(number).to_s.capitalize} #{container(number)} of beer on the wall, " +
+      "#{quantity(number).capitalize} #{container(number)} of beer on the wall, " +
       "#{quantity(number)} bottles of beer.\n" +
       "Go to the store and buy some more, " + 
       "99 bottles of beer on the wall.\n"
