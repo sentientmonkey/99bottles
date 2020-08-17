@@ -59,8 +59,7 @@ class BottleNumber
   end
 
   def quantity
-    case number
-    when 0
+    if number == 0
       "no more"
     else
       number.to_s
