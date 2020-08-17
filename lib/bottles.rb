@@ -12,7 +12,7 @@ class Bottles
     case number
     when 2
       "#{number} #{container(number)} of beer on the wall, #{number} #{container(number)} of beer.\n" +
-      "Take one down and pass it around, 1 #{container(number-1)} of beer on the wall.\n"
+      "Take one down and pass it around, #{number-1} #{container(number-1)} of beer on the wall.\n"
     when 1
       "1 bottle of beer on the wall, 1 bottle of beer.\n" +
       "Take it down and pass it around, no more #{container(number-1)} of beer on the wall.\n"
