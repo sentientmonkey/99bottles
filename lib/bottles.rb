@@ -19,8 +19,12 @@ class Bottles
 end
 
 class BottleVerse
+  def self.for number
+    new(BottleNumber.for number)
+  end
+
   def self.lyrics number
-    new(BottleNumber.for(number)).lyrics
+    self.for(number).lyrics
   end
 
   attr_reader :number, :bottle_number
