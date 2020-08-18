@@ -53,11 +53,7 @@ class BottleNumber
   end
 
   def container
-    if number == 1
-      "bottle"
-    else
-      "bottles"
-    end
+    "bottles"
   end
 
   def pronoun
