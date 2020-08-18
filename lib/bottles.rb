@@ -18,6 +18,9 @@ class Bottles
 end
 
 class BottleNumber
+  def self.registry
+    @registry ||= []
+  end
   def self.for number
     [BottleNumber6, BottleNumber1, BottleNumber0, BottleNumber].
       find {|candidate| candidate.handles? number }.new number
