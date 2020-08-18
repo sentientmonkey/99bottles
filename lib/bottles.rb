@@ -87,11 +87,7 @@ class BottleNumber1 < BottleNumber
 end
 
 class BottleNumber6 < BottleNumber
-  def quantity
-    "1"
-  end
-
-  def container
-    "six-pack"
+  def to_s
+    "1 six-pack"
   end
 end
