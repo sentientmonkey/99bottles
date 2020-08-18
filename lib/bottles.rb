@@ -19,7 +19,7 @@ class BottleVerse
     @number = number
   end
 
-  def verse number=self.number
+  def verse
     bottle_number = BottleNumber.for number
 
     "#{bottle_number} of beer on the wall, ".capitalize +
