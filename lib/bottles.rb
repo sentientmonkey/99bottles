@@ -92,6 +92,6 @@ class BottleNumber6 < BottleNumber
   end
 
   def container
-    "six pack"
+    "six-pack"
   end
 end
