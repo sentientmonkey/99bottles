@@ -18,6 +18,10 @@ class Bottles
 end
 
 class BottleNumber
+  def self.for number
+    registry.find {|candidate| candidate.handles? number }.new number
+  end
+
   def self.registry
     @registry ||= [BottleNumber]
   end
@@ -26,9 +30,6 @@ class BottleNumber
     registry.prepend candidate
   end
 
-  def self.for number
-    registry.find {|candidate| candidate.handles? number }.new number
-  end
 
   def self.handles? number
     true
