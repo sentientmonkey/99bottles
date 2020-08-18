@@ -27,8 +27,7 @@ class BottleNumber
   end
 
   def self.for number
-    [BottleNumber6, BottleNumber1, BottleNumber0, BottleNumber].
-      find {|candidate| candidate.handles? number }.new number
+    registry.find {|candidate| candidate.handles? number }.new number
   end
 
   def self.handles? number
