@@ -8,7 +8,7 @@ class Bottles
   end
 
   def verse number
-    BottleVerse.new(number).verse(number)
+    BottleVerse.new(number).verse
   end
 end
 
