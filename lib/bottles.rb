@@ -87,6 +87,8 @@ class BottleNumber0 < BottleNumber
 end
 
 class BottleNumber1 < BottleNumber
+  BottleNumber.register self
+
   def self.handles? number
     number == 1
   end
