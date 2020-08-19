@@ -1,7 +1,7 @@
 require_relative "test_helper"
 
 class BottleVerseTest < Minitest::Test
-  def test_the_first_verse
+  def test_general_rule_upper_bound
     expected = <<-VERSE
 99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
