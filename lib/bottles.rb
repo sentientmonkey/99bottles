@@ -18,8 +18,6 @@ class CountdownSong
   end
 end
 
-Bottles = CountdownSong
-
 class BottleVerse
   def self.for number
     new(BottleNumber.for number)
