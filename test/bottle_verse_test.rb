@@ -1,6 +1,10 @@
 require_relative "test_helper"
 
 class BottleVerseTest < Minitest::Test
+  def setup
+    @role_player = BottleVerse
+  end
+
   def test_general_rule_upper_bound
     expected = <<-VERSE
 99 bottles of beer on the wall, 99 bottles of beer.
