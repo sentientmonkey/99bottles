@@ -1,5 +1,11 @@
 require_relative 'test_helper'
 
+class VerseFake
+  def self.lyrics number
+    "This is verse #{number}"
+  end
+end
+
 class CountdownSongTest < Minitest::Test
   def test_a_couple_verses
     expected = <<-VERSES
