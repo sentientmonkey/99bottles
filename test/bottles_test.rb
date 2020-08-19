@@ -1,6 +1,6 @@
 require_relative 'test_helper'
 
-class BottlesTest < Minitest::Test
+class CountdownSongTest < Minitest::Test
   def test_a_couple_verses
     expected = <<-VERSES
 99 bottles of beer on the wall, 99 bottles of beer.
