@@ -17,6 +17,14 @@ Take one down and pass it around, 2 bottles of beer on the wall.
     assert_equal expected, BottleVerse.lyrics(3)
   end
 
+  def test_verse_6
+    expected = <<-VERSE
+1 six-pack of beer on the wall, 1 six-pack of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+    VERSE
+    assert_equal expected, BottleVerse.lyrics(6)
+  end
+
   def test_verse_2
     expected = <<-VERSE
 2 bottles of beer on the wall, 2 bottles of beer.
